@@ -8,9 +8,9 @@
 
 
 x = input("Create a password: ")
-y = x.isalpha
+y = x.isalpha()
 
-if True:
+if y is True:
   print("That's a valid password.")
 else:
   print("Use the alphabet. Try again.")
