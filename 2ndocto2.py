@@ -1,11 +1,11 @@
 
 name = input("Enter your name: ")
-print("your password should be composed of all numbers expressed in 4 digits.")
-password = input("enter your password: ")
+print("Your password should be composed of all numbers expressed in 4 digits.")
+password = input("Enter your password: ")
 y = password.isalnum()
 
 if (y == True) and (len(password) == 4):
-    print("great.")
+    print("Great.")
 else:
     print("not going to work.")
 age = (input("Your age: "))
